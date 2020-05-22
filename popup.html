@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pictureer</title>
+        <link rel="stylesheet" href="popup.css">
+    </head>
+    <body>
+        <div id="popup-window">
+            <header>
+                <strong>Pictureer</strong>
+            </header>
+            <div id="popup-box">
+                <div id="popup-uiTypeSelector">
+                    <button id="popup-btnUiType_Normal" class="popup-btnUiType">Normal</button>
+                    <button id="popup-btnUiType_Advanced" class="popup-btnUiType">Advanced</button>
+                </div>
+                <div id="popup-uiNormal" class="popup-uiBox">
+                </div>
+                <div id="popup-uiAdvanced" class="popup-uiBox displayNone">
+                </div>
+                <div id="popup-progressBar" class="displayNone"></div>
+                <div id="popup-menu">
+                    <button id="popup-btnMenu_statistics" class="popup-btnUiType">Statistics</button>
+                    <button id="popup-btnMenu_close" class="popup-btnUiType btnDisabled">Close</button>
+                    <button id="popup-btnMenu_search" class="popup-btnUiType">Search</button>
+                    <button id="popup-btnMenu_download" class="popup-btnUiType btnDisabled">Download</button>
+                </div>
+            </div>
+            <footer>
+                &copy;Petr Bednář
+            </footer>
+        </div>
+        <script type="text/javascript" src="popup.js"></script>
+    </body>
+</html>

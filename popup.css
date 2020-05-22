@@ -1,0 +1,159 @@
+body {
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+}
+
+.displayNone {
+    display: none;
+}
+
+#popup-window {
+    width: 200px;
+}
+
+header {
+    padding: 5px 5px 5px 10px;
+    background-color: #323232;
+
+    text-align: left;
+    color: #f3f3f3;
+    font-size: 18px;
+}
+
+footer {
+    padding: 3px 6px 3px 3px;
+    background-color: #323232;
+
+    text-align: right;
+    color: #f3f3f3;
+    font-size: 10px;
+}
+
+#popup-box {
+
+}
+
+#popup-uiTypeSelector, #popup-menu {
+    display: inline-table;
+    width: 100%;
+}
+
+.popup-btnUiType {
+
+    width: 50%;
+    margin: 0;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: #646464;
+
+    color: #f3f3f3;
+    font-size: 12px;
+    text-align: center;
+
+}
+
+.popup-btnUiType:hover {
+    cursor: pointer;
+    background-color: #949494;
+}
+
+.popup-btnSelected {
+    background-color: #848484 !important;
+}
+
+.popup-uiBox {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.popup-btnSelector {
+    width: 70%;
+    margin: 0;
+    border: 0;
+    padding: 5px 0px;
+    background-color: #646464;
+
+    color: #f3f3f3;
+    font-size: 12px;
+    text-align: center;
+}
+
+.popup-btnSelector:hover {
+    cursor: pointer;
+    background-color: #949494;
+}
+
+.popup-progressBar_searchResult {
+
+    display: flex;
+    height: 30px;
+    background-color: #ffcc00;
+
+    text-align: center;
+    font-size: 12px;
+}
+
+.popup-progressBar_searchResult > div:first-child, .popup-progressBar_downloadProgress > div:nth-child(2) > div:nth-child(1){
+
+    width: 50%;
+    padding: 5px;
+    padding-left: 10px;
+
+    text-align: left;
+}
+
+.popup-progressBar_searchResult > div:nth-child(2), .popup-progressBar_downloadProgress > div:nth-child(2) > div:nth-child(2) {
+
+    width: 50%;
+    padding: 5px;
+    text-align: center;
+}
+
+.popup-progressBar_downloadProgress {
+
+    background-color: #848484;
+
+    text-align: center;
+    font-size: 12px;
+}
+
+.popup-progressBar_downloadProgress > div:nth-child(2) {
+
+    margin-top: -28px;
+    position: absolute;
+    display: flex;
+    width: 100%;
+}
+
+.popup-progressBar_progress {
+    height: 30px;
+    background-color: #00cc66;
+}
+
+.popup-occurenceDisplay {
+
+    width: 30%;
+    background-color: #ffcc00;
+    padding: 5px 0px;
+
+    text-align: center;
+    font-size: 12px;
+}
+
+.popup-typeBox {
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+}
+
+#popup-progressBar {
+    border: 1px solid black;
+}
+
+.btnDisabled {
+    cursor: not-allowed;
+    background-color: #6e0000 !important;
+    pointer-events: none;
+}
